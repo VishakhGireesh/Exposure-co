@@ -11,6 +11,11 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+.fixed-full {
+    position:sticky;
+    top: 0;
+   
+}
 
 .image-size img {
     height: 80px;
@@ -121,6 +126,7 @@ body::-webkit-scrollbar {
 }
 footer{
     height: 180px;
+    position: relative;
 }
 
 @media(max-width:1200px) {
